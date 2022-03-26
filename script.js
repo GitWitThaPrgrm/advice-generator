@@ -22,8 +22,6 @@ const fetchGif = () => {
       console.log("FetchGifs worked");
       return;
     });
-  // document.querySelector(".title").innerHTML = `Gif #${data.slip.id}`;
-  // document.querySelector(".text").innerHTML = `"${data.slip.gif}"`;
 };
 
 fetchGif();
