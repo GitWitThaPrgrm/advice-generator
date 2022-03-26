@@ -10,5 +10,6 @@ https://developers.giphy.com/docs/api/endpoint#search
 api.giphy.com/v1/gifs/search
 
 Advice Slip JSON API
+https://api.adviceslip.com/advice
 https://api.adviceslip.com/#object-slip
 https://api.adviceslip.com/advice/search/{query}
