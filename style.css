@@ -25,10 +25,9 @@ body {
   background-color: var(--dark-grayish-blue);
   padding: 1.25rem;
   font-family: "Manrope", sans-serif;
-  display: flex;
-  flex-direction: column;
+  display:flex;
   align-items: center;
-  justify-content: center;
+  justify-content:space-around;
   height: calc(100vh - 0.1px);
   text-align: center;
 }
@@ -38,8 +37,8 @@ body {
   padding: 1.25rem 1.25rem 3rem;
   color: #ffffff;
   border-radius: 1.25rem;
-  position: relative;
-  margin: 10px;
+  position:relative;
+  margin: 8px;
 }
 
 .container h1 {
@@ -84,22 +83,28 @@ body {
   position: relative;
   display: block;
 }
-
-.container button {
-  background-color: var(--neon-green);
-  padding: 1.25rem;
-  border: none;
-  border-radius: 50%;
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  bottom: -2rem;
-  cursor: pointer;
-  transition: background-color 0.3s ease-in-out;
+.btncontainer {
+  background-color: var(--dark-grayish-blue);
+  position:fixed;
 }
 
-.container button:hover {
+button {
+  box-sizing: border-box;
+  background-color: var(--neon-green);
+  position: relative;
+  appearance:inherit;
+  color: var(--dark-grayish-blue);
+  display: inline-block;
+  border: none;
+  border-radius: 1.0rem;
+  font-size: 20px;
+  width: 140px;
+  height: 80px;
+  transition: background-color 0.3s ease-in-out;
+}
+button:hover {
   background-color: hsl(150, 59%, 54%);
+  box-shadow: inset 0 0 0 5px var(--light-cyan);
 }
 
 @media (min-width: 500px) {
