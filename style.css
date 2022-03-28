@@ -85,7 +85,6 @@ body {
 }
 .btncontainer {
   background-color: var(--dark-grayish-blue);
-  position:fixed;
 }
 
 button {
